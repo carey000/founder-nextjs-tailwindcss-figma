@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project.
 
-## Getting Started
+## Getting Started 开始
 
-First, run the development server:
+本地启动：
 
 ```bash
 npm run dev
@@ -14,23 +14,23 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+端口：3000. [http://localhost:3000](http://localhost:3000) 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 构建启动
 
-## Learn More
+```bash
+# 构建
+npm run build # or pnpm yarn bun
 
-To learn more about Next.js, take a look at the following resources:
+# 自己指定端口本地启动
+anywhere -p 8080 
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 说明
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* `node -v` 版本需 > v18
+* 随便选的一个项目 [figma community: tailwindcss](https://www.figma.com/community/file/1052575036916494414/tailwindcss-v3-4-3-design-system)
+* 结构上没有响应式的体现，所以加在文字上
+* `tailwindcss.config.js` 项目中最好配置前缀prefix等，此处未作处理
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
